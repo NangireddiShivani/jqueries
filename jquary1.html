@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <h1 style="font-size: 400%;" class="txt">shivani</h1>
+        <h2 style="font-size: 400%;" class="txt">sravanthi</h2>
+         <!-- <button>submit</button> -->
+          <button>show</button>
+          <button>hide</button>
+    
+    </body>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script>
+    //         $(document).ready(function(){
+               
+    //             $("button").hover(fn1);
+    //         function fn1(){
+               
+    //             $("h2").fadeToggle(1000);
+    // }       
+    //         });
+//     $(document).ready(function(){
+               
+//                $("button").mouseenter(fn1);
+//            function fn1(){
+              
+//                $("h2").fadeOut(1000);
+//                $("h2").fadeIn(1000);
+//    }       
+//            });
+// $(document).ready(function(){
+               
+//                $("button").mouseenter(fn1);
+//                $("button").mouseleave(fn2);
+//            function fn1(){
+              
+//                $("h2").fadeOut(1000);
+               
+//    }  
+//    function fn2(){
+//     $("h2").fadeIn(1000);
+
+//    }     
+//            });
+// $(document).ready(function(){
+//                $("button").hover(fn1,fn2);
+//            function fn1(){ 
+//                $("h2").fadeOut(1000);           
+//    }  
+//    function fn2(){
+//     $("h2").fadeIn(1000);
+//    }     
+//            });
+
+$("document").ready(function(){
+$("button:first").click(function fn1(){
+    $(".txt").show("slow").fadeOut(1000).fadeIn(1000)
+});
+$("button:odd").hover(function(){
+    $(".txt").hide("fast");
+})
+   
+})
+
+// slideup,slidedown,toggle-show,hide
+            </script>
+</html>
